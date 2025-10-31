@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    padding-top: 60px; 
+    padding-bottom: 60px; 
+    box-sizing: border-box; 
+}
+
+
+.logo img {
+    max-width: 150px;
+    margin-top: -30px;
+    position: relative; 
+    z-index: 10000; 
+}
+
+.descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color:#F99E4B; 
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.content {
+    padding: 20px;
+    min-height: calc(100vh - 120px); /* Garante que o conteúdo ocupe a altura da tela, menos as barras */
+    box-sizing: border-box;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #F99E4B;
+    color: #111111;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-link img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.btn-link :hover{
+    background-color: #111111;
+}
+
+p{
+    font-size: 16px;
+    color: #F99E4B;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+p a{
+    color: #F99E4B;
+}
+
